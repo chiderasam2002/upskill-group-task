@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+body{
+    font: 16px/1.5 Arial, Helve tica, san serif;
+   
+}
+
+
+header{
+    display: block;
+}
+
+.topheader{
+    display: flex;
+    padding: 10px 60px;
+    text-align: center;
+    /* justify-content: center; */
+    background-color:rgba(8, 194, 8, 0.377);
+    justify-content: space-around;
+    margin-top: 20px;
+
+} 
+
+.p{
+    text-align:justify;
+    align-items:center;
+    display: flex;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 20px 0;
+}
+
+.logo{
+    left: 0px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+}
+
+ul li a{
+    color: black;
+}
+
+ ul li select{
+    border: none;
+    
+}
+
+.select select{
+    background-color:green;
+    color: white;
+    border:none;
+    padding: 8px;
+    border-radius: 16px;
+}
+
+.main_gallary img{
+  width: 100%;
+}
+
+.main_gallary{
+   background-position: center;
+   text-align: center;
+   padding: 30px 0;
+
+}
+
+
+
+.main_info{
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.main_info .line{
+    background-color: green;
+    width: 10%;
+    height: 4px;
+    border-radius: 30px;
+    color: white;
+}
+
+
+.phoneinfo, .addressinfo{
+    padding: 20px 0;
+}
+
+.phone{
+    padding:5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.maininfo2{
+    background-color: rgba(5, 131, 5, 0.616);
+    display: grid;
+    grid-template-columns: 350px 400px 350px;
+    justify-content: center;
+    gap: 50px;
+    text-align: justify;
+    padding: 30px 0 30px 0;
+}
+
+
+
+.unth p{
+   display: block;
+   padding: 50px 0;
+}
+
+.latestnews{
+    justify-content: baseline;
+    padding: 30px;
+}
+
+ .news1{
+    display: flex;
+    border-bottom: 1px #f4f4f4 solid;
+    padding: 30px 0;
+  
+}
+
+.contact_us .p{
+    
+    display:flex;
+    padding: 20px 0;
+    
+}
+
+.contact_us p{
+    gap: 10px;
+    justify-content: center;
+}
+
+footer{
+    background-color: rgba(128, 128, 128, 0.925);
+    text-align: center;
+    padding: 30px;
+}
+
+
+
