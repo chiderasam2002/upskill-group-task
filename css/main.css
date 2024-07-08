@@ -32,6 +32,7 @@ header{
     text-align:justify;
     align-items:center;
     display: flex;
+    gap: 5px;
 }
 
 
@@ -67,6 +68,12 @@ ul li a{
     border-radius: 16px;
 }
 
+.select select:hover{
+    background-color:rgba(13, 156, 13, 0.568);
+    color: white;
+    cursor: pointer;
+}
+
 .main_gallary img{
   width: 100%;
 }
@@ -100,10 +107,12 @@ ul li a{
     padding: 20px 0;
 }
 
-.phone{
+.phone p{
     padding:5px;
-    justify-content: center;
-    align-items: center;
+    text-align:justify;
+    align-items:center;
+    display: flex;
+    gap: 5px;
 }
 
 .maininfo2{
