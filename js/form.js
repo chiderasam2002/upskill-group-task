@@ -54,4 +54,4 @@ const submitButton = document.getElementById('submit');
 
 submitButton.addEventListener('click', () => {
     window.alert('your request was sent successfully')
-})
+});
