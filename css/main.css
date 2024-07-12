@@ -60,7 +60,7 @@ ul li a{
     
 }
 
-.select select{
+ .ul2 li a{
     background-color:green;
     color: white;
     border:none;
@@ -68,7 +68,7 @@ ul li a{
     border-radius: 16px;
 }
 
-.select select:hover{
+.ul2:hover a{
     background-color:rgba(13, 156, 13, 0.568);
     color: white;
     cursor: pointer;
@@ -148,13 +148,13 @@ ul li a{
     
     display:flex;
     padding: 20px 0;
+    text-align: justify;
+    align-items: center;
+    gap: 5px;
     
 }
 
-.contact_us p{
-    gap: 10px;
-    justify-content: center;
-}
+
 
 footer{
     background-color: rgba(128, 128, 128, 0.925);

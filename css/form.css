@@ -1,9 +1,16 @@
 body {
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    
     font-family: 'Poppins', sans-serif;
 }
 
-#form {
+.container{
+    /* background-color: #09c372; */
+    padding: 200px 0 0;
+    text-align: center;
+    align-items: center;
+}
+
+#form{
     width: 400px;
     height: 100vh;
     margin: 20vh auto 0 auto;
